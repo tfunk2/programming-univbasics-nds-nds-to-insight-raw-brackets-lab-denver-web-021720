@@ -31,7 +31,7 @@ def directors_totals(nds)
       movie_index += 1
     end
     result[:nds[director_index][:name]] = money_total
+    director_index += 1
   end
-  director_index += 1
   result
 end
